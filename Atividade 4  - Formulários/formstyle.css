@@ -1,0 +1,37 @@
+fieldset {
+    width: 50%;
+    margin: 0 auto 24px;
+}
+
+.first_label {
+    width: 100px;
+    display: inline-block;
+}
+
+input {
+    margin-bottom: 15px;
+    margin: 0 10px 15px;
+    width: 130px;
+}
+
+.br {
+    display: block;
+}
+
+#text2{
+    width: 50px;
+}
+
+select{
+    margin-bottom: 15px;
+    margin: 0 10px 15px;
+}
+
+#textImg{
+    width: 300px;
+}
+
+.buttons{
+    width: 53.8%;
+    margin: 0 auto;
+}

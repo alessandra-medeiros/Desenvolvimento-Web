@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de notas</title>
+        <script defer type="text/javascript" src="assets/js/validacao.js"></script>
+        <script defer type="text/javascript" src="assets/js/script2.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel='icon' href="assets/imgs/icon.svg" type='image/x-icon'/ >
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- /Bootstrap -->
+    </head>
+    <body>
+        <header id="section1">
+            <h3><a href="#section2">Calcule sua nota no antigo modelo padrão ULBRA</a></h3>
+        </header>
+        
+        <nav class="navbar navbar-expand-sm justify-content-center" id="section2">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index1.html">Novo modo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Modo antigo</a></li>
+            </ul>
+        </nav>
+        
+        <section class="container-fluid">
+            <div class="row">
+                <article class="col-md-12">
+                    <form action="#">
+                        <div>
+                            <label for="g1">G1:</label>
+                            <input id="g1" autocomplete="off">
+                        </div>
+                        
+                        <div>
+                            <label for="g2">G2:</label>
+                            <input id="g2" autocomplete="off">
+                        </div>
+                    </form>
+                    
+                    <div>
+                        <button onClick="calculoOld()">Calcular</button>
+                    </div>
+                    
+                    <hr id="divisor">
+                    
+                    <div class="r">
+                        <h2>Seu resultado:</h2>
+                        <p id="resultado"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <footer>
+            <h4>AS - 2020</h4>
+        </footer>
+    </body>
+</html>

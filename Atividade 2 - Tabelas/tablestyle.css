@@ -1,0 +1,372 @@
+/*---------------INÍCIO---------------*/
+body{
+    background-color: #F1F3F4;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+header{
+    min-height: 104px;
+    background-color: #162E58;
+    box-shadow: 0px 1px 6px 0px rgba(131, 131, 131, 0.7);
+}
+
+.header_titulo{
+    padding: 18px 100px 18px 80px;
+    display: flex;
+    font-size: 16px;
+    color: white;
+}
+
+.menu{
+    display: block;
+    color: #fff;
+    list-style-type: none;
+}
+
+ul{
+    width: 57%;
+    margin: 0 auto;
+}
+
+li{
+    list-style-type: none;
+    display: table-cell;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 16px 45px 14px 0px;
+    opacity: 1;
+/*    line-height: 16px;*/
+/*    text-align: center;*/
+/*    vertical-align: top;*/
+/*    outline: none;*/
+}
+
+li a{
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgba(0,0,0,.1);
+}
+
+/*---------------TABELAS CLASSIFICAÇÃO E PADRÕES---------------*/
+main{
+    margin: 0 auto;
+    width: 55%;
+    min-height: 550px;
+    background-color: white;
+    box-shadow: 0px 0 3px 0px rgba(0, 0, 0, 0.22);
+}
+
+.main_titulo{
+    font-weight: bold;
+    color: rgba(0,0,0,.87);
+    display: inline-block;
+    margin: 16px 0 8px 24px;
+    font-size: 16px;
+}
+
+.tabelas{
+    margin: 0 0 24px 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+th:nth-child(2) {
+    text-align: left;
+}
+
+th:last-child {
+    width: 15px;
+}
+
+.th{
+    padding: 1px 0 8px 1px;
+}
+
+.info{
+    width: 31px;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;
+    color: rgba(0,0,0,.87);
+    border-top: 1px solid #f1f3f4;
+}
+
+td div{
+    display: flex;
+    align-items: center;
+}
+
+td div img:first-child{
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+.tr_bar{
+    background-color: #4285F4;
+    width: 3px;
+    height: 40px;
+    margin-bottom: 0.5px;
+}
+
+.tr_bar3{
+    background-color: #FA7B17;
+    width: 3px;
+    height: 40px;
+    margin-bottom: 0.5px;
+}
+
+.tr_bar4{
+    width: 3px;
+    height: 40px;
+    margin-bottom: 0.5px;
+}
+
+tr td:first-child{
+    width: 24px;
+}
+
+tr td:nth-child(2){
+    width: 34px;
+}
+
+.icons{
+    width: 100px;
+    padding: 4px 0 0 6px;
+}
+
+.icon{
+    height: 16px;
+    width: 16px;
+}
+
+tbody tr:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+/*---------------TABELAS ESTATÍSTICAS---------------*/
+.main2{
+    margin: 0 auto;
+    width: 55%;
+    min-height: 500px;
+    background-color: white;
+    box-shadow: 0px 0 3px 0px rgba(0, 0, 0, 0.22);
+    padding: 8px;
+}
+
+.gols{
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0 3px 0px rgba(0, 0, 0, 0.22);
+    padding: 17px 15px 8px 17px;
+}
+
+.main_tituloGols{
+    text-align: left;
+    border-collapse: collapse;
+    padding-bottom: 25px;
+    font-size: 12px;
+    color: #202124;
+    letter-spacing: 0.75px;
+    line-height: 13px;
+}
+
+.tableGols td{
+    display: table-cell;
+    vertical-align: inherit;
+    line-height: 20px;
+}
+
+.tableGols .th1{
+    font-size: 12px;
+    padding-bottom: 8px;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+}
+
+.tableGols. th2{
+    text-align: right;
+    font-size: 12px;
+    padding-bottom: 8px;
+    color: rgba(0,0,0,.54);
+}
+
+.td_jogador{
+    color: rgba(0,0,0,.87);
+    padding: 8px 0 33px 0;
+    text-align: center;
+    width: 24px;
+}
+
+.td_group{
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.td_group div{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 8px;
+}
+
+.td_group .div2 img{
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    padding-right: 8px;
+}
+
+.td_group .div2 span{
+    color: rgba(0,0,0,.54);
+    vertical-align: super;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/*---------------TABELAS PARTIDAS---------------*/
+.bar_partidas{
+    width: 93,5%;
+    height: 20px;
+    border-bottom: 1px solid #ebebeb;
+    background: #f5f5f5;
+    padding: 12px 24px 10px;
+    color: rgba(0,0,0,.87);
+    font-weight: normal;
+}
+
+.table_partidas_todo{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.td_table_partidas{
+    width: 50%;
+    border-bottom: solid 1px #e0e0e0;
+    border-spacing: 0;
+}
+
+.td_table_partidasRight{
+    border-right: solid 1px #e0e0e0;
+    border-bottom: solid 1px #e0e0e0;
+    border-spacing: 0;
+    width: 50%;
+}
+
+.table_partidas{
+    min-height: 108px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table_partidas td{
+    border: none;
+}
+
+.table_partidas th{
+    color: rgba(0,0,0,.54);
+    padding: 16px 24px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.td_partidas{
+    box-sizing: border-box;
+    height: 32px;
+    padding-left: 24px;
+    width: 64px;
+}
+
+.partidas_icon{
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-spacing: 0;
+}
+
+.td_partidas_time{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0,0,0,.87);
+    text-align: left;
+    padding: 0px;
+    width: 190px;
+}
+
+.loser{
+    color: rgba(0,0,0,.54);
+}
+
+.partidas_gols{
+    font-size: 14px;
+    float: right;
+    padding-left: 30px;
+}
+
+.td_partidas_arrow{
+    padding-left: 1px;
+    width: 6px;
+    border-right: solid 1px #000;
+}
+
+.td_partidas_arrow img{
+    width: 6px;
+    height: 8px;
+}
+
+.td_partidas_data{
+    text-align: center;
+    width: 10px;
+    padding: 0px 1px;
+    line-height: 1.4;
+}
+
+.partidas_tempo{
+    padding: 0px 16px 0px 16px;
+    vertical-align: middle;
+    display: block;
+}
+
+.partidas_data{
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    white-space: nowrap;
+}
+
+.partidas_ad{
+    color: #e8710a;
+    vertical-align: middle;
+    display: block;
+    font-weight: 500;
+}
+
+.partidas_data2{
+    color: rgba(0,0,0,.87);
+    white-space: nowrap;
+}
+
+.td_partidas_abaixo{
+    height: 24px;
+}

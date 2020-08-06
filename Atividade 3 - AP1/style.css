@@ -1,0 +1,356 @@
+/*--------ALL THE PAGE--------*/
+.all{
+    width: 70%;
+    height: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0 3px 0px rgba(0, 0, 0, 0.22);
+    background-color: white;
+}
+
+/*--------STYLING THE HEADER--------*/
+header{
+    width: 100%;
+    height: 130px;
+    box-shadow: 0px 0 3px 0px rgba(0, 0, 0, 0.22);
+    margin-bottom: 10px;
+}
+
+header div{
+    margin: auto;
+    text-align: center;
+}
+
+.header_logo{
+    width: 350px;
+    height: 68px;
+    padding-top: 40px;
+}
+
+.header_logo:hover{
+    cursor: pointer;
+}
+
+/*--------STYLING THE SECTION--------*/
+section{
+    padding-top: 30px;
+}
+
+/*--------STYLING THE ARTICLES--------*/
+article{
+    border-right: 1px solid rgba(0,0,0,.1);
+    width: 70%;
+    height: 594px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.article_card{
+    width: 100%;
+    min-height: 130px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.article_card__text{
+    width: 65%;
+    float: left;
+}
+
+.article_card__text h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.article_card__text h3{
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #ff7d55;
+    margin-top: 0px;
+}
+
+.article_card__img{
+    width: 30%;
+    float: right;
+}
+
+.article_card__img img{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.article_card:hover{
+    cursor: pointer;
+}
+
+.article_card__text h2:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+/*--------STYLING THE ASIDE--------*/
+aside{
+    width: 25.3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.aside_card{
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.aside_card__text{
+    width: 65%;
+    float: left;
+}
+
+.aside_card__text h2{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 18px;
+    text-align: left;
+    float: left;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+.aside_card__text h3{
+    font-weight: 800;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d8b24c;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.aside_card__img{
+    width: 30%;
+    float: right;
+}
+
+.aside_card__img img{
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 50%;
+}
+
+.aside_card:hover{
+    cursor: pointer;
+}
+
+.aside_card__text h2:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+/*--------STYLING THE NEWSLETTER--------*/
+.aside2{
+    width: 27.7%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.mail{
+    width: 100%;
+    height: 320px;
+    padding-top: 10px;
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.mail_img{
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.mail img img{
+    height: 32px;
+    width: 32px;
+}
+
+.mail p{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.mail_email{
+    background: #fff;
+    box-sizing: border-box;
+    color: #c5c5c5;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    height: 50px;
+    margin-top: 0;
+    padding: 20px 15px;
+    width: 80%;
+    cursor: text;
+    margin: auto;
+}
+
+.mail_enviar{
+    background: linear-gradient(0deg,#000 0,#212121);
+    box-shadow: 1px 1px 0 rgba(0,0,0,.05);
+    cursor: pointer;
+    height: 50px;
+    width: 80%;
+    margin: 14px auto;
+}
+
+.mail_enviar p{
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+/*--------STYLING THE FOOTER 1--------*/
+footer{
+    height: 195px;
+    width: 100%;
+    background-color: #ff7d55;
+    color: #fff;
+    clear: both;
+}
+
+.footer_card{
+    width: 80%;
+}
+
+.footer_card__img{
+    float: left;
+    padding-left: 50px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.footer_card__img img{
+    width: 80%;
+    height: 80%;
+    padding-top: 80px;
+}
+
+.footer_card__text{
+    float: left;
+    width: 50%;
+    padding-top: 55px;
+}
+
+.footer_card__text p{
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+
+.footer_media{
+    width: 30%;
+    float: left;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.footer_media__text{
+    text-align: right;
+    width: 60%;
+    float: left;
+}
+
+.footer_media__text h3{
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+}
+
+.footer_media__text p{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    cursor: pointer;
+}
+
+.footer_media__img{
+    width: 30%;
+    margin: 0px;
+    float: left;
+    padding-left: 10px;
+}
+
+.footer_media__img img{
+    width: 30%;
+    height: 30%;
+    margin: 0px;
+}
+
+.flooter_media__button{
+    padding-left: 65px;
+    padding-top: 40px;
+}
+
+.flooter_media__button div{
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.flooter_media__button p{
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 18px;
+}
+
+/*--------STYLING THE FOOTER 2--------*/
+.footer_2{
+    height: 120px;
+}
+
+.footer_2 ul{
+    list-style-type: none;
+}
+
+.footer_2 li{
+    font-size: 12px;
+    color: #151316;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer_2 img{
+    padding-left: 355px;
+}
